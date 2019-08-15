@@ -16,7 +16,7 @@ public class SpaceKitty extends ApplicationAdapter {
 
 	private GameStateManager gsm;
 	private SpriteBatch batch;
-	Texture img;
+	//Texture img;
 	
 	@Override
 	public void create () {
@@ -37,6 +37,6 @@ public class SpaceKitty extends ApplicationAdapter {
 	@Override
 	public void dispose () {
 		batch.dispose();
-		img.dispose();
+		//img.dispose();
 	}
 }
