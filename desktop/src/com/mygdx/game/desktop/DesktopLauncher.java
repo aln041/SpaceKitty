@@ -7,6 +7,9 @@ import com.mygdx.game.SpaceKitty;
 public class DesktopLauncher {
 	public static void main (String[] arg) {
 		LwjglApplicationConfiguration config = new LwjglApplicationConfiguration();
+		config.width = SpaceKitty.WIDTH;
+		config.height = SpaceKitty.HEIGHT;
+		config.title = SpaceKitty.TITLE;
 		new LwjglApplication(new SpaceKitty(), config);
 	}
 }
