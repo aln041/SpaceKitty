@@ -57,4 +57,9 @@ public class Ufo {
     public boolean collides(Rectangle player){
         return player.overlaps(boundsTop) || player.overlaps(boundsBot);
     }
+
+    public void dispose(){
+        top.dispose();
+        bottom.dispose();
+    }
 }

@@ -12,6 +12,7 @@ public class MenuState extends State {
 
     public MenuState(GameStateManager gsm){
         super(gsm);
+        camera.setToOrtho(false, (float)SpaceKitty.WIDTH/2,(float)SpaceKitty.HEIGHT/2);
         background = new Texture("background.png");
         startButton = new Texture("startButton.png");
     }
@@ -20,7 +21,6 @@ public class MenuState extends State {
     public void handleInput() {
         if(Gdx.input.justTouched()){
             gsm.set(new PlayState(gsm));
-            dispose();
         }
     }
 
@@ -31,9 +31,11 @@ public class MenuState extends State {
 
     @Override
     public void render(SpriteBatch sb) {
+        sb.setProjectionMatrix(camera.combined);
         sb.begin();
         sb.draw(background,0,0, SpaceKitty.WIDTH,SpaceKitty.HEIGHT);
-        sb.draw(startButton,((SpaceKitty.WIDTH - startButton.getWidth())/2), SpaceKitty.HEIGHT/2);
+        //sb.draw(startButton,((SpaceKitty.WIDTH - startButton.getWidth())/2), SpaceKitty.HEIGHT/2);
+        sb.draw(startButton,camera.position.x-(float)startButton.getWidth()/2,camera.position.y);
         sb.end();
     }
 
@@ -41,5 +43,6 @@ public class MenuState extends State {
     public void dispose(){
         background.dispose();
         startButton.dispose();
+        System.out.println("MenuState disposed");
     }
 }
