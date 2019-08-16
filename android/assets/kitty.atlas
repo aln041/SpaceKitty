@@ -1,0 +1,257 @@
+
+kitty.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+frame_apngframe01
+  rotate: false
+  xy: 1, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe05
+  rotate: false
+  xy: 1, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe09
+  rotate: false
+  xy: 1, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe13
+  rotate: false
+  xy: 1, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe02
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe04
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe06
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe08
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe10
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe12
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe14
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe16
+  rotate: false
+  xy: 53, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe03
+  rotate: false
+  xy: 105, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe07
+  rotate: false
+  xy: 157, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe11
+  rotate: false
+  xy: 157, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe15
+  rotate: false
+  xy: 157, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe17
+  rotate: false
+  xy: 209, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe18
+  rotate: false
+  xy: 261, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe19
+  rotate: false
+  xy: 313, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe20
+  rotate: false
+  xy: 365, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe34
+  rotate: false
+  xy: 365, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe21
+  rotate: false
+  xy: 417, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe33
+  rotate: false
+  xy: 417, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe22
+  rotate: false
+  xy: 469, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe32
+  rotate: false
+  xy: 469, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe23
+  rotate: false
+  xy: 521, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe24
+  rotate: false
+  xy: 573, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe28
+  rotate: false
+  xy: 573, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe25
+  rotate: false
+  xy: 625, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe29
+  rotate: false
+  xy: 625, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe26
+  rotate: false
+  xy: 677, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe30
+  rotate: false
+  xy: 677, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe27
+  rotate: false
+  xy: 729, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe31
+  rotate: false
+  xy: 729, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe35
+  rotate: false
+  xy: 781, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+frame_apngframe36
+  rotate: false
+  xy: 833, 1
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
