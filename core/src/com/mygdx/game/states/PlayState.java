@@ -2,11 +2,7 @@ package com.mygdx.game.states;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Texture;
-import com.badlogic.gdx.graphics.g2d.Sprite;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
-import com.badlogic.gdx.graphics.g3d.model.Animation;
 import com.badlogic.gdx.utils.Array;
 import com.mygdx.game.SpaceKitty;
 import com.mygdx.game.sprites.Cat;
@@ -31,7 +27,7 @@ public class PlayState extends State {
         super(gsm);
         //kittyAtlas = new TextureAtlas(Gdx.files.internal("kitty.atlas"));
         //animation = new com.badlogic.gdx.graphics.g2d.Animation<TextureRegion>(1/10f,kittyAtlas.getRegions());
-        cat = new Cat(50, 10);
+        cat = new Cat(0, 200);
         camera.setToOrtho(false, SpaceKitty.WIDTH/2,SpaceKitty.HEIGHT/2);
         background = new Texture("background.png");
         //ufo = new Ufo(100);
@@ -63,6 +59,9 @@ public class PlayState extends State {
             if(camera.position.x - (camera.viewportWidth / 2)
                     > ufo.getTop_pos().x + ufo.getTop().getWidth()){
                 ufo.reposition(ufo.getTop_pos().x + (Ufo.UFO_WIDTH + UFO_SPACING) * UFO_COUNT);
+            }
+            if(ufo.collides(cat.getBounds())){
+                gsm.set(new PlayState(gsm));
             }
         }
 
