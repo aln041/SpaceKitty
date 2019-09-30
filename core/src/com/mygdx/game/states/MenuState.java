@@ -11,10 +11,10 @@ public class MenuState extends State {
     private Texture startButton;
 
     public MenuState(GameStateManager gsm){
-        super(gsm);
+        super(gsm); // contains camera, mouse, gsm
         camera.setToOrtho(false, (float)SpaceKitty.WIDTH/2,(float)SpaceKitty.HEIGHT/2);
-        background = new Texture("background.png");
-        startButton = new Texture("startButton.png");
+        this.background = new Texture("background.png");
+        this.startButton = new Texture("startButton.png");
     }
 
     @Override

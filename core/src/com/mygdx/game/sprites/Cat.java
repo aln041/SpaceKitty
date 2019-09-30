@@ -25,8 +25,6 @@ public class Cat {
         kittyAtlas = new TextureAtlas(Gdx.files.internal("kitty.atlas"));
         cat = new com.badlogic.gdx.graphics.g2d.Animation<TextureRegion>(1/10f, kittyAtlas.getRegions());
         bounds = new Rectangle(x,y,
-                //kittyAtlas.findRegion("kitty.atlas").getTexture().getWidth(),
-                //kittyAtlas.findRegion("kitty.atlas").getTexture().getHeight());
                 kittyAtlas.getRegions().peek().getRegionWidth()-15,
                 kittyAtlas.getRegions().peek().getRegionHeight()-10);
         effect = Gdx.audio.newSound(Gdx.files.internal("sfx.ogg"));

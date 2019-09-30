@@ -20,9 +20,6 @@ public class Ufo {
         rand = new Random();
         top = new Texture("ufo_up.png");
         bottom = new Texture("ufo_down.png");
-        //top = new Texture("toptube.png");
-        //bottom = new Texture("bottomtube.png");
-
 
         top_pos = new Vector2(x, rand.nextInt(FLUCTUATION)+GAP+LOWEST_OPENING);
         bot_pos = new Vector2(x, top_pos.y-GAP-top.getHeight());
